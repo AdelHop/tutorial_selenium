@@ -1,0 +1,18 @@
+xpath - xml path languige umożliwia przemieszczanie się pomiedzy kolejnymi gałeziami drzewa xml i html
+
+selektor css
+
+a - wybiera on elementy z tagiem a
+div - wybiera elamenty z tagiem div
+.red - wybiera elementy z klasą red ("." oznacza nazwę klasy)
+#fname - wybieramy element o danym id
+div.row - wybiera wszystkie elementy z tagiem div i klasą row
+[aria-hidden="true"] wybiera wszystkie elementy z aria-hidden atribute o wartości rownej "true"
+li a - wszystkie tagi "a" które są dzieckiem tagu li
+li + a - wybiera pierwszy tag "a" po tagu li
+li, a - wybiera wszystkie elementy li i a
+p:first-child - wybiera element p bedący pierwszym dzieckiem tagu nadrzędnego
+p:last-child - wybiera element p będący ostatnim dzieckiem tagu nadrzednego
+p:nth-child[2] - wybiera element p będący drugim dzieckiem tagu nadrzednego
+
+
